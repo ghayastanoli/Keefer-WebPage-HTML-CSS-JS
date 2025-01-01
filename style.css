@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'caravel'; /* Name of the font */
+    src: url('./font/Caravel-Medium.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'aerial2'; /* Name of the font */
+    src: url('./font/ariblk.ttf') format('opentype');
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo-img img{
+    width: 760px;
+    height: auto;
+}
+.sec1-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.sec1-text{
+    padding-right: 30px;
+    padding-top: 32px;
+    text-align: center;
+}
+.sec1-p1 p{
+    font-size: 21px;
+    font-weight: 700;
+    color: #a11a31;
+    letter-spacing: 1.3px;
+    border-bottom: 3px solid #676366;
+}
+.sec1-p2 p{
+    font-size: 37px;
+    font-family: aerial2;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: -8px;
+}
+.sec1-p3 p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #797778;
+    margin-top: -6px;
+    letter-spacing: 1px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 29px;
+    padding-right: 25px;
+}
+.nav-list li{
+    cursor: pointer;
+}
+/* .nav-list li:hover{
+    background-color: #797778;
+} */
+.nav-content{
+    padding: 10px;
+    background: linear-gradient(to bottom, #901c18 60%, #5a0909 100%);
+    color: white;
+    font-weight: 600;
+}
+.sec3-content{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 35px;
+}
+.sec3-img img{
+    width: 680px;
+    height: auto;
+}
+/* .sec3-img2{
+    width: 572px;
+    height: auto;
+    background-image: url(images/form_bg.jpg);
+    background-repeat: no-repeat;
+} */
+.sec3-img2 {
+    position: relative; 
+    display: inline-block; /* Ensures the image remains inline */
+    width: 572px; /* Adjust width as needed */
+    height: auto; /* Set height automatically */
+}
+.form-bg{
+    width: 572px;
+    height: auto;
+}
+
+.form-bg img{
+    width: 100%; 
+    height: auto;
+    position: relative;
+}
+
+.text-overlay {
+    position: absolute; /* Position the text relative to the parent */
+    top: 0%; /* Center vertically */
+    left: 0%; /* Center horizontally */
+    color: black; /* Text color */
+    text-align: left; /* Align text horizontally */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-flex1{
+    display: flex;
+    gap: 38px;
+}
+.form-flex3{
+    display: flex;
+    padding: 3px 30px;
+    gap: 35px;
+    align-items: center;
+}
+.inp1{
+    display: flex;
+    padding: 4px 0px
+}
+.inp1 p{
+    min-width: 60px;
+}
+.form-flex5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+.form-flex5-button{
+    display: flex;
+}
+.form-text-h3{
+    font-size: 24px;
+    background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
+    padding: 3px 6px;
+    color: white;
+
+}
+.form-text-p{
+    padding-top: 5px;
+}
+.form-p1{
+    font-size: 20px;
+    max-width: 230px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.form-p1 span{
+    font-size: 30px;
+    color: #182f48;
+}
+.form-p2{
+    padding: 7px 29px;
+    font-size: 17px;
+}
+.form-p2 span{
+    font-weight: 500;
+}
+.typearea1{
+    padding: 3px 15px;
+    border: 1px solid lightgrey;
+}
+.form-img img{
+    transform: rotate(12deg);
+    height: 59px;
+}
+.typearea2 {
+    width: 90%; 
+    height: 106px; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-left: 30px;
+    margin-top: 3px;
+    margin-bottom: 21px;
+}
+.form-btn{
+    padding: 10px 30px;
+    font-size: 20px;
+    background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
+    color: white;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
+    cursor: pointer; /* Indicates the button is clickable */
+    cursor: pointer;
+}
+.form-btn img{
+    padding-left: 11px;
+    height: 14px;
+    margin: -1px;
+    cursor: pointer;
+}
+.form-flex5-text p{
+    font-style: italic;
+    color: #676366;
+    font-family: serif;
+    letter-spacing: 0.9px;
+}
+
