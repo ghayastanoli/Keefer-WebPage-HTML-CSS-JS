@@ -449,3 +449,8 @@
     height: 11px;
     padding-left: 3px;
 }
+.sec4-container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
