@@ -8,6 +8,11 @@
     src: url('./font/ariblk.ttf') format('opentype');
     
 }
+@font-face {
+    font-family: 'gazeta'; /* Name of the font */
+    src: url('./font/gazzeta/GazetaDemiBold.ttf') format('truetype');
+    
+}
 
 *{
     margin: 0;
@@ -25,7 +30,7 @@
     justify-content: space-between;
 }
 .sec1-text{
-    padding-right: 30px;
+    padding-right: 38px;
     padding-top: 32px;
     text-align: center;
 }
@@ -72,12 +77,14 @@
 .sec3-content{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     padding: 20px 35px;
 }
 .sec3-img img{
     width: 680px;
     height: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
+
 }
 /* .sec3-img2{
     width: 572px;
@@ -90,6 +97,11 @@
     display: inline-block; /* Ensures the image remains inline */
     width: 572px; /* Adjust width as needed */
     height: auto; /* Set height automatically */
+
+}
+.sec3-img2 img{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
+
 }
 .form-bg{
     width: 572px;
@@ -200,6 +212,7 @@
     height: 14px;
     margin: -1px;
     cursor: pointer;
+    box-shadow: none;
 }
 .form-flex5-text p{
     font-style: italic;
@@ -207,4 +220,232 @@
     font-family: serif;
     letter-spacing: 0.9px;
 }
+.sec4-content{
+    display: flex;
+    padding: 30px 40px;
+}
+.sec4-first-part{
+    padding-right: 36px;
+    border-right: 1px solid black;
+}
+.first-p3-sec4{
+    display: flex;
+    gap: 40px;
+}
+.second-part-a{
+    display: flex;
+    padding-bottom: 18px;
+    border-bottom: 1px solid black;
+    padding-right: 55px;
+}
+.second-part-b{
+    display: flex;
+    padding-bottom: 18px;
+    padding-right: 55px;
+    padding-top: 18px;
+}
+.text-part{
+    padding-left: 42px;
+}
+.sec4-second-part{
+    border-right: 1px solid black;
+}
+.third-part-imgs{
+    display: flex;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    gap: 20px;
 
+}
+.third-part-imgs img{
+    height: 110px;
+}
+.sec4-third-part{
+    padding-left: 30px;
+}
+.first-p-sec4 p{
+    font-family: gazeta;
+    font-size: 35px;
+    color: #676366;
+    letter-spacing: 1px;
+}
+.first-p-sec4 span{
+    font-family: gazeta;
+    color: #a3080a;
+    letter-spacing: 1px;
+}
+.first-p2-sec4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #a3080a;
+}
+.first-p3-para{
+    max-width: 283px;
+}
+.p2{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.p1{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.first-part-button{
+    display: flex;
+    justify-content: end;
+}
+.first-part-button {
+    position: relative; /* Ensures the pseudo-element is positioned relative to this container */
+    text-align: center; /* Optional: centers the button horizontally */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.first-part-button::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.first-part-btn {
+    margin-top: 10px;
+    padding: 6px 25px;
+    border: none;
+    background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
+}
+
+.first-part-button2{
+    display: flex;
+    justify-content: end;
+}
+.first-part-button2 {
+    position: relative; /* Ensures the pseudo-element is positioned relative to this container */
+    text-align: center; /* Optional: centers the button horizontally */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.first-part-button2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.first-part-btn2 {
+    padding: 6px 25px;
+    border: none;
+    background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
+}
+/*--------------------------*/
+.first-part-button3{
+    display: flex;
+    justify-content: end;
+}
+.first-part-button3 {
+    position: relative; /* Ensures the pseudo-element is positioned relative to this container */
+    text-align: center; /* Optional: centers the button horizontally */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.first-part-button3::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.first-part-btn3 {
+    padding: 6px 25px;
+    border: none;
+    background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
+}
+
+/*----------------*/
+.first-part-button4{
+    display: flex;
+    justify-content: end;
+}
+.first-part-button4 {
+    position: relative; /* Ensures the pseudo-element is positioned relative to this container */
+    text-align: center; /* Optional: centers the button horizontally */
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.first-part-button4::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 61%;
+    transform: translateX(-50%);
+    width: 79%;
+    height: 1px;
+    background-color: gray;
+
+}
+
+.first-part-btn4 {
+    padding: 6px 25px;
+    border: none;
+    background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-right: 16px;
+}
+
+
+.p3-p1{
+    max-width: 180px;
+    font-size: 18px;
+}
+.p3-p2{
+    max-width: 230px;
+    font-size: 18px;
+}
+.candc{
+    max-width: 300px;
+}
+.p3-p3{
+    max-width: 295px;
+    font-size: 18px;
+}
+.laptop-img{
+    margin: 15px;
+    width: 100%;
+    height: auto;
+}
+.btn-bul{
+    height: 11px;
+    padding-left: 3px;
+}
