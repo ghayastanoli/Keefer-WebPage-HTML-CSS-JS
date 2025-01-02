@@ -76,52 +76,40 @@
 }
 .sec3-content{
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    margin: auto;
     padding: 20px 35px;
+    justify-content: space-around;
+    overflow: hidden;
+    gap: 20px;
+}
+.sec3-img{
+    width: 52%;
 }
 .sec3-img img{
-    width: 680px;
-    height: auto;
+    width: 100%;
+    height: 100%;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
 
 }
-/* .sec3-img2{
-    width: 572px;
-    height: auto;
+
+.sec3-img2 {
+    width: 46%; 
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(images/form_bg.jpg);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
+
+}
+/* .img2-bg{
+    background-image: url(images/form_bg.jpg);
+    width: 100%;
+    object-fit: cover;
     background-repeat: no-repeat;
 } */
-.sec3-img2 {
-    position: relative; 
-    display: inline-block; /* Ensures the image remains inline */
-    width: 572px; /* Adjust width as needed */
-    height: auto; /* Set height automatically */
 
-}
-.sec3-img2 img{
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
 
-}
-.form-bg{
-    width: 572px;
-    height: auto;
-}
-
-.form-bg img{
-    width: 100%; 
-    height: auto;
-    position: relative;
-}
-
-.text-overlay {
-    position: absolute; /* Position the text relative to the parent */
-    top: 0%; /* Center vertically */
-    left: 0%; /* Center horizontally */
-    color: black; /* Text color */
-    text-align: left; /* Align text horizontally */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .form-flex1{
     display: flex;
@@ -145,6 +133,7 @@
     align-items: center;
     justify-content: center;
     gap: 28px;
+    padding-bottom: 10px;
 }
 .form-flex5-button{
     display: flex;
@@ -161,7 +150,7 @@
 }
 .form-p1{
     font-size: 20px;
-    max-width: 230px;
+    padding-right: 25px;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -182,11 +171,11 @@
 }
 .form-img img{
     transform: rotate(12deg);
-    height: 59px;
+    height: 49px;
 }
 .typearea2 {
     width: 90%; 
-    height: 106px; 
+    height: 100px; 
     padding: 10px; 
     font-size: 16px; 
     border: 1px solid #ccc; 
@@ -194,11 +183,11 @@
     box-sizing: border-box; 
     margin-left: 30px;
     margin-top: 3px;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
 }
 .form-btn{
-    padding: 10px 30px;
-    font-size: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
     background: linear-gradient(to bottom, #a9050a 70%, #a3080a 100%);
     color: white;
     border: none;
@@ -209,7 +198,7 @@
 }
 .form-btn img{
     padding-left: 11px;
-    height: 14px;
+    height: 11px;
     margin: -1px;
     cursor: pointer;
     box-shadow: none;
@@ -244,7 +233,6 @@
     padding-right: 55px;
 }
 .second-part-b{
-    display: flex;
     padding-bottom: 18px;
     padding-right: 55px;
     padding-top: 18px;
@@ -336,21 +324,27 @@
 .first-part-button2 {
     position: relative; /* Ensures the pseudo-element is positioned relative to this container */
     text-align: center; /* Optional: centers the button horizontally */
-    margin-top: 20px; /* Adjust spacing as needed */
+    
+    display: flex;
+    justify-content: start;
+    padding-left: 35px;
+
 }
 
 .first-part-button2::before {
     content: "";
     position: absolute;
-    top: 0px;
-    left: 52%;
+    top: 9px;
+    left: 51%;
     transform: translateX(-50%);
     width: 100%;
     height: 1px;
     background-color: gray;
 
 }
-
+.set-div{
+    position: relative;
+}
 .first-part-btn2 {
     padding: 6px 25px;
     border: none;
@@ -360,6 +354,7 @@
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-right: 16px;
+    margin-top: 10px;
 }
 /*--------------------------*/
 .first-part-button3{
@@ -485,7 +480,7 @@
     font-size: 18px;
 }
 .laptop-img{
-    margin: 15px;
+    margin: 7px;
     width: 100%;
     height: auto;
 }
@@ -626,4 +621,13 @@
 .sec6{
     height: 15px;
     background: linear-gradient(to bottom, #901c18 60%, #5a0909 100%);
+}
+.new-flex{
+    display: flex;
+}
+
+.sec3-container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
 }

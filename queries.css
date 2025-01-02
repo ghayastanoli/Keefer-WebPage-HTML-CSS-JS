@@ -1,0 +1,48 @@
+@media (max-width:1300px){
+    .first-p-sec5 p {
+        font-size: 28px;
+    }
+    .sec5-content{
+        gap: 20px;
+    }
+    .card-p2{
+        text-wrap: nowrap;
+    }
+}
+
+@media (max-width:1200px){
+    .first-p-sec4 p{
+        font-size: 28px;
+    }
+    .card-p1{
+        font-size: 20px;
+    }
+
+    
+}
+@media (max-width:1175px){
+    .form-img img{
+        height: 39px;
+    }
+    .first-part-btn2 {
+        padding: 6px 22px
+    }
+    .first-part-btn3 {
+        padding: 6px 22px;
+    }
+}
+@media (max-width:1095px){
+    .logo-img img{
+        width: 100%;
+        height: auto;
+    }
+    .sec1-text{
+        padding-top: 12px;
+    }
+
+}
+@media (max-width:1090px){
+    .form-img img{
+        height: 36px;
+    }
+}
