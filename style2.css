@@ -100,6 +100,7 @@
     position: relative;
     overflow: hidden;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Light shadow */
+    padding: 9px;
 
 }
 /* .img2-bg{
@@ -109,7 +110,41 @@
     background-repeat: no-repeat;
 } */
 
+  /*---------------*/
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1100; /* Above overlay */
+}
 
+.hamburger-menu span {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+@media screen and (max-width: 675px) {
+    .hamburger-menu {
+        display: flex;
+        margin-left: 15px;
+        margin-top: 12px;
+    }
+
+    .nav-list {
+        display: none; /* Hide the default navigation */
+    }
+    .nav-content{
+        display: flex;
+        justify-content: end;
+        padding-right: 38px;
+        padding-bottom: 20px;
+    }
+}
+
+
+  /*-------------*/
 
 .form-flex1{
     display: flex;
