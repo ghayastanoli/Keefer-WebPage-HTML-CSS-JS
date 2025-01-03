@@ -145,6 +145,13 @@
     }
     .text-part {
         padding-left: 0px;
+        max-width: 350px;
+    }
+    .second-part-b {
+        padding-right: 0px;
+    }
+    .new-flex{
+        justify-content: center;
     }
     
     
