@@ -140,7 +140,11 @@
         align-items: normal;
     }
     .second-part-a{
-        padding-right: 40px;
+        justify-content: center;
+        padding-right: 0px;
+    }
+    .text-part {
+        padding-left: 0px;
     }
     
     
