@@ -98,7 +98,7 @@
         padding-bottom: 20px;
     }
     .text-part{
-        text-align: center;
+        text-align: left;
         padding-bottom: 50px;
     }
 
@@ -125,10 +125,22 @@
         text-align: center;
     }
     .p3-p2{
-        max-width: 100%;
+        max-width: 85%;
     }
     .sec4-third-part {
         padding-left: 0px;
+    }
+    .second-part-a{
+        flex-direction: row;
+        align-items:normal
+
+    }
+    .new-flex{
+        flex-direction: row;
+        align-items: normal;
+    }
+    .second-part-a{
+        padding-right: 40px;
     }
     
     
